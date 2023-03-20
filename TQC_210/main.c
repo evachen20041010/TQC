@@ -13,7 +13,7 @@ int gcd(int m, int n)
     }
 }
 
-// 最小公倍數 (公式：兩樹相乘/最大公因數)
+// 最小公倍數 (公式：兩數相乘/最大公因數)
 int lcm(int m, int n)
 {
     return m * n / gcd(m, n);
